@@ -3,7 +3,13 @@ COMANDOS GIT
 
 > git init < Inicia un repositorio vacío. Genera espacio en memoria donde se guardaran las versiones del proyecto.
 
-> git status < Ver el estado de los archivos.
+> git status < Ver el estado de los archivos en el seguimiento.
+
+> git commit -m "(descripción para identificar)" < Guarda la versión del proyecto en la rama.  
+
+> git commit -a < guarda cambios en los archivos y hace commit.
+
+> git log < Muestra la versión guardada del commit.
 
 ----------------------------------------------ARCHIVOS----------------------------------------------------------------
 
@@ -40,6 +46,14 @@ COMANDOS GIT
 > ls -lha < Muestra los archivos ocultos dentro de una carpeta o directorio.
 
 > pwd < Muestra la ruta del directorio en el que se encuentra.
+
+------------------------------------------------RAMAS-------------------------------------------------------------------
+
+> git branch < Muestra las ramas existentes. 
+
+> git branch (nombre de la rama) < Crea una nueva rama.
+
+> git checkout (nombre de la rama) < Mueve nuestra ubicación entre ramas.
 
 ------------------------------------------------OTROS-------------------------------------------------------------------
 
