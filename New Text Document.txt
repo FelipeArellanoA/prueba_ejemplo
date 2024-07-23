@@ -11,6 +11,10 @@ COMANDOS GIT
 
 > git log < Muestra la versión guardada del commit.
 
+> git push < Carga contenidos a repositorio remoto. "Sube a la nube".
+
+> git restore < Restaura la versión anterior.
+
 ----------------------------------------------ARCHIVOS----------------------------------------------------------------
 
 > touch < Crea un archivo nuevo en el directorio.
