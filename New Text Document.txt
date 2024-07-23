@@ -1,0 +1,50 @@
+
+COMANDOS GIT
+
+> git init < Inicia un repositorio vacío. Genera espacio en memoria donde se guardaran las versiones del proyecto.
+
+> git status < Ver el estado de los archivos.
+
+----------------------------------------------ARCHIVOS----------------------------------------------------------------
+
+> touch < Crea un archivo nuevo en el directorio.
+
+> cat < Muestra el contenido de un archivo.
+
+> cp -r (nombre archivo) < Copia un archivo.
+
+> git add < Añade archivos al seguimiento del directorio.
+
+> git add . < Añade todos los archivos del directorio actual al seguimiento.
+
+----------------------------------------CARPETAS / DIRECTORIOS---------------------------------------------------------
+
+> mkdir < Crea un nuevo directorio.
+
+> rmdir < Elimina directorio.
+ 
+> rm -r (nombre carpeta) < Elimina directorio y su contenido.
+
+> mv < Mueve un directorio.
+
+---------------------------------------------NAVEGACIÓN----------------------------------------------------------------
+
+> cd (nombre carpeta) < Change directory. Navega entre las carpetas.
+
+> cd .. < Vuelva a la carpeta o directorio previo dentro de la dirección.
+
+> ls < Lista los archivos dentro de una carpeta o directorio.
+
+> ls -l < Lista los archivos con mayor detalle.
+
+> ls -lha < Muestra los archivos ocultos dentro de una carpeta o directorio.
+
+> pwd < Muestra la ruta del directorio en el que se encuentra.
+
+------------------------------------------------OTROS-------------------------------------------------------------------
+
+> clear < Limpia la pantalla del Git Bash.
+
+
+
+
