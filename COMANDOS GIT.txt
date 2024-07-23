@@ -1,0 +1,74 @@
+
+COMANDOS GIT
+
+> git init < Inicia un repositorio vacío. Genera espacio en memoria donde se guardaran las versiones del proyecto.
+
+> git status < Ver el estado de los archivos en el seguimiento.
+
+> git commit -m "(descripción para identificar)" < Guarda la versión del proyecto en la rama.  
+
+> git commit -a < guarda cambios en los archivos y hace commit.
+
+> git log < Muestra la versión guardada del commit.
+
+> git push < Carga contenidos a repositorio remoto. "Sube a la nube".
+
+> git restore < Restaura la versión anterior.
+
+> git stash < guarda temporalmente los cambios efectuados en el código de trabajo.
+
+----------------------------------------------ARCHIVOS----------------------------------------------------------------
+
+> touch < Crea un archivo nuevo en el directorio.
+
+> cat < Muestra el contenido de un archivo.
+
+> cp -r (nombre archivo) < Copia un archivo.
+
+> git add < Añade archivos al seguimiento del directorio.
+
+> git add . < Añade todos los archivos del directorio actual al seguimiento.
+
+> git mv (nombre archivo actual) (nuevo nombre) < Cambia nombre del archivo.
+
+----------------------------------------CARPETAS / DIRECTORIOS---------------------------------------------------------
+
+> mkdir < Crea un nuevo directorio.
+
+> rmdir < Elimina directorio.
+ 
+> rm -r (nombre carpeta) < Elimina directorio y su contenido.
+
+> mv < Mueve un directorio.
+
+---------------------------------------------NAVEGACIÓN----------------------------------------------------------------
+
+> cd (nombre carpeta) < Change directory. Navega entre las carpetas.
+
+> cd .. < Vuelva a la carpeta o directorio previo dentro de la dirección.
+
+> ls < Lista los archivos dentro de una carpeta o directorio.
+
+> ls -l < Lista los archivos con mayor detalle.
+
+> ls -lha < Muestra los archivos ocultos dentro de una carpeta o directorio.
+
+> pwd < Muestra la ruta del directorio en el que se encuentra.
+
+------------------------------------------------RAMAS-------------------------------------------------------------------
+
+> git branch < Muestra las ramas existentes. 
+
+> git branch (nombre de la rama) < Crea una nueva rama.
+
+> git checkout (nombre de la rama) < Mueve nuestra ubicación entre ramas.
+
+> git branch -d (nombre de la rama) < Elimina una rama.
+
+------------------------------------------------OTROS-------------------------------------------------------------------
+
+> clear < Limpia la pantalla del Git Bash.
+
+
+
+
