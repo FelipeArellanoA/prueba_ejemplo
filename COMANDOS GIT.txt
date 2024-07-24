@@ -11,7 +11,7 @@ COMANDOS GIT
 
 > git log < Muestra la versión guardada del commit.
 
-> git push < Carga contenidos a repositorio remoto. "Sube a la nube".
+> git push origin master < Carga contenidos a repositorio remoto. "Sube a la nube".
 
 > git restore < Restaura la versión anterior.
 
